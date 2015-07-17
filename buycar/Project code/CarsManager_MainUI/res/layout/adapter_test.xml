@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/car_info_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginTop="12.0dip"
+        android:orientation="horizontal" >
+
+        <!-- Header -->
+
+        <RelativeLayout
+            android:id="@+id/rtl_car_header_layout"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/iv_adapter_homecars_caricon"
+                android:layout_width="114.0dip"
+                android:layout_height="76.0dip"
+                android:background="@drawable/car_photo_1"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/tv_adapter_homecars_carname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_adapter_homecars_caricon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2.0dip"
+                android:singleLine="true"
+                android:text="BEG21350"
+                android:textColor="@color/color_555555"
+                android:textSize="16.0dip" />
+        </RelativeLayout>
+
+        <!-- 第二列 -->
+
+        <RelativeLayout
+            android:id="@+id/rtl_car_info_one_layout"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_adapter_homecars_carprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/red"
+                android:textSize="15.0sp" />
+
+            <TextView
+                android:id="@+id/tv_adapter_homecars_rukutime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_adapter_homecars_carprice"
+                android:layout_marginTop="8.0dip"
+                android:singleLine="true"
+                android:textColor="@color/color_555555"
+                android:textSize="13.0sp" />
+
+            <TextView
+                android:id="@+id/tv_adapter_homecars_runlength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_adapter_homecars_rukutime"
+                android:layout_marginTop="8.0dip"
+                android:singleLine="true"
+                android:textColor="@color/color_555555"
+                android:textSize="13.0sp" />
+
+            <TextView
+                android:id="@+id/tv_adapter_homecars_chengjiaoprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_adapter_homecars_runlength"
+                android:layout_below="@+id/tv_adapter_homecars_runlength"
+                android:layout_marginTop="8.0dip"
+                android:singleLine="true"
+                android:textColor="@color/color_555555"
+                android:textSize="13.0sp" />
+        </RelativeLayout>
+
+        <!-- 第三列 -->
+
+        <RelativeLayout
+            android:id="@+id/rtl_car_info_two_layout"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_adapter_homecars_carcategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/color_555555"
+                android:textSize="15.0sp" />
+
+            <TextView
+                android:id="@+id/tv_adapter_homecars_carsize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_adapter_homecars_carcategory"
+                android:layout_marginTop="8.0dip"
+                android:singleLine="true"
+                android:textColor="@color/color_555555"
+                android:textSize="13.0sp" />
+
+            <TextView
+                android:id="@+id/tv_adapter_homecars_sellstate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_adapter_homecars_carsize"
+                android:layout_marginTop="8.0dip"
+                android:singleLine="true"
+                android:textColor="@color/red"
+                android:textSize="13.0sp" />
+
+            <TextView
+                android:id="@+id/tv_adapter_homecars_chengjiaotime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_adapter_homecars_sellstate"
+                android:layout_below="@+id/tv_adapter_homecars_sellstate"
+                android:layout_marginTop="8.0dip"
+                android:singleLine="true"
+                android:textColor="@color/color_555555"
+                android:textSize="13.0sp" />
+        </RelativeLayout>
+
+        <!-- 第四列 -->
+
+        <RelativeLayout
+            android:id="@+id/rtl_car_info_three_layout"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_adapter_homecars_carxinghao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/color_555555"
+                android:textSize="15.0sp" />
+
+            <TextView
+                android:id="@+id/tv_adapter_homecars_uploadtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_adapter_homecars_carxinghao"
+                android:layout_marginTop="8.0dip"
+                android:singleLine="true"
+                android:textColor="@color/color_555555"
+                android:textSize="13.0sp" />
+
+            <TextView
+                android:id="@+id/tv_adapter_homecars_locate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_adapter_homecars_uploadtime"
+                android:layout_marginTop="8.0dip"
+                android:singleLine="true"
+                android:textColor="@color/color_555555"
+                android:textSize="13.0sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_selected_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="4.0dip"
+        android:background="@drawable/img_business_noselected"
+        android:contentDescription="@string/app_name" />
+
+    <!-- 完整度 -->
+
+    <RelativeLayout
+        android:id="@+id/wanzhengdu_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/car_info_lay"
+        android:layout_marginLeft="4.0dip" >
+
+        <TextView
+            android:id="@+id/tv_wanzhengdu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/wanzhengdu"
+            android:textColor="@color/color_555555"
+            android:textSize="14.0sp" />
+
+        <ImageView
+            android:id="@+id/iv_wanzhengdu_1"
+            android:layout_width="30.0dip"
+            android:layout_height="8.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:layout_toRightOf="@+id/tv_wanzhengdu"
+            android:background="@drawable/bg_red"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/iv_wanzhengdu_2"
+            android:layout_width="30.0dip"
+            android:layout_height="8.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:layout_toRightOf="@+id/iv_wanzhengdu_1"
+            android:background="@drawable/bg_red"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/iv_wanzhengdu_3"
+            android:layout_width="30.0dip"
+            android:layout_height="8.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:layout_toRightOf="@+id/iv_wanzhengdu_2"
+            android:background="@drawable/bg_gray"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/iv_wanzhengdu_4"
+            android:layout_width="30.0dip"
+            android:layout_height="8.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:layout_toRightOf="@+id/iv_wanzhengdu_3"
+            android:background="@drawable/bg_gray"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/iv_wanzhengdu_5"
+            android:layout_width="30.0dip"
+            android:layout_height="8.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:layout_toRightOf="@+id/iv_wanzhengdu_4"
+            android:background="@drawable/bg_blue"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10.0dip"
+        android:layout_below="@+id/car_info_lay" />
+
+</RelativeLayout>

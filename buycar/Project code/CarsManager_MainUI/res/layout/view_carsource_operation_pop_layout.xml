@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_f3f3f3"
+    android:orientation="vertical"
+    android:weightSum="3" >
+
+    <TextView
+        android:id="@+id/tv_business_op_1"
+        android:layout_width="134.0dip"
+        android:layout_height="38.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="6.0dip"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="2.0dip"
+        android:layout_marginTop="6.0dip"
+        android:layout_weight="1"
+        android:background="@drawable/bt_base_bottom_right"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/shangjiacheliang"
+        android:textColor="@color/color_535353"
+        android:textSize="14.0sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_carsource_operation_lay"
+        android:layout_width="match_parent"
+        android:layout_height="38.0dip"
+        android:layout_marginBottom="4.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="12.0dip"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/tv_business_op_2"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2.0dip"
+            android:layout_marginRight="2.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/bt_base_bottom_left"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/update_state"
+            android:textColor="@color/color_535353"
+            android:textSize="14.0sp" />
+
+        <TextView
+            android:id="@+id/tv_business_op_3"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2.0dip"
+            android:layout_marginRight="2.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/bt_base_bottom_left"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/chage_info"
+            android:textColor="@color/color_535353"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

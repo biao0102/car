@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f2f4f7" >
+
+    <ImageView
+        android:id="@+id/iv_logo_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100.0dip"
+        android:background="@drawable/img_welcome_logo"
+        android:contentDescription="@string/app_name" />
+
+    <LinearLayout
+        android:id="@+id/fl_forum_login_edit_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="96.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:id="@+id/ll_username_linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/img_login_edit_top_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/img_login_username_icon" />
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15.0dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/edt_input_username"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:dropDownWidth="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:inputType="text|textEmailAddress"
+                    android:paddingRight="10.0dip"
+                    android:singleLine="true"
+                    android:textColor="@color/color_666666"
+                    android:textColorHint="@color/color_cccccc"
+                    android:textCursorDrawable="@null"
+                    android:textSize="18.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/img_login_edit_bottom_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/img_login_password_icon" />
+
+            <EditText
+                android:id="@+id/edt_input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:dropDownVerticalOffset="10.0dip"
+                android:dropDownWidth="wrap_content"
+                android:gravity="center_vertical"
+                android:inputType="textPassword"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="10.0dip"
+                android:singleLine="true"
+                android:textColor="@color/color_666666"
+                android:textColorHint="@color/color_cccccc"
+                android:textCursorDrawable="@null"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_loginin_btlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:layout_below="@+id/fl_forum_login_edit_linearLayout"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginTop="30.0dip"
+        android:background="@drawable/button_red"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/denglu"
+            android:textColor="@color/white"
+            android:textSize="17.0dip" />
+    </RelativeLayout>
+
+</RelativeLayout>

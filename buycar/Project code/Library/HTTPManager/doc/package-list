@@ -1,0 +1,13 @@
+com.standard.kit
+com.standard.kit.apk
+com.standard.kit.base64
+com.standard.kit.device
+com.standard.kit.file
+com.standard.kit.md5
+com.standard.kit.net
+com.standard.kit.net.http
+com.standard.kit.secret
+com.standard.kit.secret.des
+com.standard.kit.secret.rsa
+com.standard.kit.secret.sha
+com.standard.kit.zip

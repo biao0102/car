@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52.0dip"
+    android:background="@drawable/img_carinfo_editview_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:weightSum="5" >
+
+    <TextView
+        android:id="@+id/tv_carinfoEdit_infoname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18.0dip"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="18.0sp" />
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center_vertical" >
+
+        <EditText
+            android:id="@+id/etv_carinfoEdit_infocontent"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@android:color/transparent"
+            android:dropDownVerticalOffset="10.0dip"
+            android:dropDownWidth="wrap_content"
+            android:gravity="center_vertical|right"
+            android:hint=""
+            android:paddingRight="18.0dip"
+            android:singleLine="true"
+            android:textColor="@color/color_ababab"
+            android:textCursorDrawable="@null" />
+
+        <ImageView
+            android:id="@+id/iv_carinfoEdit_clearbt"
+            android:layout_width="19.0dip"
+            android:layout_height="19.0dip"
+            android:layout_marginRight="15.0dip"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/img_carinfo_editview_clearicon"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

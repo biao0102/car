@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_base_bottom_layou"
+    android:layout_width="match_parent"
+    android:layout_height="48.0dip"
+    android:background="@color/color_f3f3f3"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/tv_base_bottom_bar_left"
+            android:layout_width="120.0dip"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="6.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="6.0dip"
+            android:background="@drawable/bt_base_bottom_left"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/color_535353"
+            android:textSize="15.0sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/tv_base_bottom_bar_right"
+            android:layout_width="120.0dip"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="6.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_marginTop="6.0dip"
+            android:background="@drawable/bt_base_bottom_right"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/color_535353"
+            android:textSize="15.0sp" />
+    </RelativeLayout>
+
+</LinearLayout>

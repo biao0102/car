@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/tv_builder_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8.0dip"
+        android:textColor="@color/black"
+        android:textSize="20.0sp" />
+
+    <EditText
+        android:id="@+id/tv_builder_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_builder_title"
+        android:layout_marginBottom="16.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="16.0dip"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <ImageView
+        android:id="@+id/devider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/tv_builder_message"
+        android:background="@drawable/img_line"
+        android:contentDescription="@string/app_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42.0dip"
+        android:layout_below="@+id/devider"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/rl_left_tab"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_left_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/red"
+                android:textSize="16.0sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <RelativeLayout
+            android:id="@+id/rl_right_tab"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_right_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/red"
+                android:textSize="16.0sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">去买车</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- pull to refresh -->
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松手加载…</string>
+    <string name="pull_to_refresh_refreshing_label">载入中…</string>
+    <string name="pull_to_refresh_getmore">获取中…</string>
+    <string name="pull_to_refresh_release_getmore">松手加载</string>
+    <string name="pull_to_getmore">下拉获取更多聊天记录</string>
+    <string name="load_complete">加载完毕</string>
+    <string name="message_load_complete">已无更多消息!</string>
+    <string name="data_load_complete">已无更多数据</string>
+    <string name="search_complete">搜索完成</string>
+    <string name="data_load_complete_search">未搜索到数据,换个搜索条件试试!</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+
+    <!-- title -->
+    <string name="title_shouye">首页</string>
+    <string name="title_luru">录入</string>
+    <string name="title_weishangchuan">未上传车</string>
+    <string name="title_quxuan">全选</string>
+    <string name="title_shangchuan">上传</string>
+    <string name="title_shanchu">删除</string>
+    <string name="title_wancheng">完成</string>
+    <string name="title_paizhao">拍照</string>
+    <string name="title_bitian">必填</string>
+    <string name="title_miaoshu">描述</string>
+    <string name="title_shangyibu">上一步</string>
+    <string name="title_changestate">修改销售状态</string>
+
+    <!-- bottom operation bar -->
+    <string name="bottombar_quxiao">取消</string>
+    <string name="bottombar_tiaoguo">跳过</string>
+    <string name="bottombar_next">下一步</string>
+    <string name="bottombar_paizhao">拍照</string>
+    <string name="bottombar_bitian">必填</string>
+    <string name="bottombar_baocun">保存</string>
+    <string name="bottombar_miaoshu">描述</string>
+    <string name="bottombar_kaishishangchuan">开始上传</string>
+    <string name="bottombar_xiugaicheyuan">修改车源</string>
+
+    <!-- tips -->
+    <string name="crop_img_error_tip">剪裁异常,请重新拍摄</string>
+    <string name="wenxintishi">温馨提示</string>
+    <string name="querenshanchu">确认删除此用户吗?</string>
+    <string name="loading">加载中...</string>
+    <string name="logouting">注销中...</string>
+    <string name="operating">操作中...</string>
+    <string name="uploading">正在上传%1$s/%2$s</string>
+    <string name="xuanpinpai">请先选择品牌</string>
+    <string name="shuruVIN">请输入VIN码</string>
+    <string name="xuanchexi">请先选择品牌和车系</string>
+    <string name="getting">获取数据中,请稍等片刻</string>
+    <string name="writting">初始化数据中,已完成 %1$s %</string>
+    <string name="shuru_username">请输入用户名</string>
+    <string name="shuru_password">请输入密码</string>
+    <string name="shuru_shid">请输入商户ID</string>
+    <string name="shuru_searchkey">请输入搜索条件</string>
+    <string name="no_shanghu">未搜索到任何商户</string>
+    <string name="no_pinpai">未搜索到任何品牌</string>
+    <string name="zanwu">暂无</string>
+    <string name="wu">无</string>
+    <string name="already_changed_car_tip">该车辆已经发生修改，请上传后再做此操作</string>
+
+    <!-- bt_text -->
+    <string name="denglu">登录</string>
+    <string name="quxiaoupluru">确定取消录入?</string>
+    <string name="quxiaoupdate">确定取消更新?</string>
+    <string name="queding">确定</string>
+    <string name="quxiao">取消</string>
+    <string name="fanhui">返回</string>
+    <string name="zhuxiao">注销</string>
+    <string name="exit_tips">再按一次退出应用</string>
+
+    <!-- 首页 -->
+    <string name="shanghuye_tab">商户页</string>
+    <string name="cheyuanye_tab">车源页</string>
+    <string name="all_bussiness">全部商户</string>
+    <string name="input_bussiness_id">请输入商家编号或者名称</string>
+    <string name="input_pinpai_search">请输入品牌名称或首字母</string>
+    <string name="input_chexi_search">请输入关键字</string>
+    <string name="bianhao">编号</string>
+    <string name="mingcheng">名称</string>
+    <string name="dianhua">电话</string>
+    <string name="fuzeren">商户负责人</string>
+    <string name="shangcigengxin">上次更新时间</string>
+    <string name="dizhi">地址</string>
+
+    <!-- 商家底部Tab -->
+    <string name="shangjiacheliang">上架车辆</string>
+    <string name="xiajiacheliang">下架车辆</string>
+    <string name="updatetime">商户无车源更新</string>
+    <string name="update_business_info">更新商户</string>
+    <string name="delete_business">删除商户</string>
+    <string name="update_state">更新状态</string>
+    <string name="chage_info">修改信息</string>
+
+    <!-- 车源搜索条件 -->
+    <string name="pinpai">品牌</string>
+    <string name="chexi">车系</string>
+    <string name="chexing">车型</string>
+    <string name="scsp">首次上牌</string>
+    <string name="xslc">行驶里程</string>
+    <string name="yanse">颜色</string>
+    <string name="yongtu">主要用途</string>
+    <string name="zhuangtai">状态</string>
+    <string name="vinma">VIN码</string>
+    <string name="price">价格</string>
+    <string name="cheyuanbianhao">车源编号</string>
+    <string name="gongyingshang">供应商</string>
+    <string name="diyu">地域</string>
+    <string name="sousuo">搜索</string>
+
+    <!-- 车辆信息 -->
+    <string name="wanzhengdu">完整度:</string>
+    <string name="car_price">%1$s 万元</string>
+    <string name="car_ruku">入库时间:%1$s</string>
+    <string name="car_shangpai">上牌时间:%1$s</string>
+    <string name="car_lucheng">%1$s万公里</string>
+    <string name="car_privace_cj">成交价:%1$s万元</string>
+    <string name="car_time_cj">成交时间:%1$s</string>
+
+    <!-- 修改商户页 -->
+    <string name="shbianhao">商户编号</string>
+    <string name="shbianhao_bitian">商户编号为空</string>
+    <string name="shname">商户名</string>
+    <string name="shname_bitian">商户名为空</string>
+    <string name="shtel">商户电话</string>
+    <string name="shtel_bitian">商户电话为空</string>
+    <string name="shlxr">商户联系人</string>
+    <string name="shlxr_bitian">商户联系人为空</string>
+    <string name="shzfzr">商户组负责人</string>
+    <string name="shzfzr_bitian">商户组负责人为空</string>
+    <string name="address">地址</string>
+    <string name="beizhu">备注</string>
+
+    <!-- 修改销售状态 -->
+    <string name="sell_state">销售状态:</string>
+    <string name="sell_price">销售价格:</string>
+    <string name="sell_time">销售日期:</string>
+    <string name="sell_qudao">销售渠道:</string>
+    <string name="yishou">已售</string>
+    <string name="wanyuan">万元</string>
+    <string name="weishou">未售</string>
+    <string name="daishenhe">待审核</string>
+    <string name="qumaiche">去买车</string>
+    <string name="jingxiaoshang">经销商</string>
+    <string name="queren_update">确认更新</string>
+    <string name="sure">确认</string>
+    <string name="empty_tip">请输入销售价格或销售时间</string>
+
+</resources>

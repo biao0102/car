@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="12.0dip"
+    android:layout_marginLeft="12.0dip"
+    android:layout_marginRight="12.0dip"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/view_list_header_line"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/img_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_first_line"
+        android:layout_width="match_parent"
+        android:layout_height="48.0dip"
+        android:layout_below="@+id/view_list_header_line"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/pinpai" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="6.0dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/chexi" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_3"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="6.0dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/chexing" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_list_header_line_two"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:layout_below="@+id/ll_first_line"
+        android:background="@drawable/img_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_second_line"
+        android:layout_width="match_parent"
+        android:layout_height="48.0dip"
+        android:layout_below="@+id/view_list_header_line_two"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_4"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/zhuangtai" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_5"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="6.0dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/vinma" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_6"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="6.0dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cheyuanbianhao" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_list_header_line_three"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:layout_below="@+id/ll_second_line"
+        android:background="@drawable/img_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_third_line"
+        android:layout_width="match_parent"
+        android:layout_height="48.0dip"
+        android:layout_below="@+id/view_list_header_line_three"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_7"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/gongyingshang" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_8"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="6.0dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/diyu" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="6.0dip"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/text_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button_red"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="16.0dip"
+                android:paddingTop="6.0dip"
+                android:text="@string/sousuo"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_list_header_line_four"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:layout_below="@+id/ll_third_line"
+        android:background="@drawable/img_line" />
+
+</RelativeLayout>

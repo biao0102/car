@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60.0dip"
+    android:layout_margin="4.0dip"
+    android:clickable="false" >
+
+    <!-- 商户类别 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_busness_type_layout"
+        android:layout_width="match_parent"
+        android:layout_height="38.0dip"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/bg_search_input" >
+
+        <EditText
+            android:id="@+id/edt_busness_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:background="@null"
+            android:fadeScrollbars="true"
+            android:gravity="left|center_vertical"
+            android:hint="@string/all_bussiness"
+            android:padding="4.0dip"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical"
+            android:textColor="@color/color_121212"
+            android:textSize="15.0sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_drop_down_layout"
+            android:layout_width="38.0dip"
+            android:layout_height="36.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="1.0dip"
+            android:background="@color/color_f3f3f3" >
+
+            <ImageView
+                android:id="@+id/iv_drop_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/img_dorp_down"
+                android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- 商户编号 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_busness_id_layout"
+        android:layout_width="match_parent"
+        android:layout_height="38.0dip"
+        android:layout_below="@+id/rl_busness_type_layout"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/bg_search_input" >
+
+        <EditText
+            android:id="@+id/edt_busness_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:background="@null"
+            android:fadeScrollbars="true"
+            android:gravity="left|center_vertical"
+            android:hint="@string/input_bussiness_id"
+            android:padding="4.0dip"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical"
+            android:textColor="@color/color_121212"
+            android:textSize="15.0sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_search_layout"
+            android:layout_width="38.0dip"
+            android:layout_height="38.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="1.0dip" >
+
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/img_search"
+                android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- 商户列表 -->
+
+    <View
+        android:id="@+id/view_list_header_line"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:layout_below="@+id/rl_busness_id_layout"
+        android:layout_marginTop="30.0dip"
+        android:background="@drawable/img_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60.0dip"
+        android:layout_below="@+id/view_list_header_line"
+        android:orientation="horizontal"
+        android:weightSum="19" >
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="6.0dip"
+            android:layout_weight="2"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/bianhao" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_3"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="6.0dip"
+            android:layout_weight="4"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/mingcheng" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_4"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="6.0dip"
+            android:layout_weight="3"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/dianhua" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_5"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="6.0dip"
+            android:layout_weight="2"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/fuzeren" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_6"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="6.0dip"
+            android:layout_weight="3"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/shangcigengxin" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_7"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="6.0dip"
+            android:layout_weight="4"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/dizhi" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_line"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/img_line" />
+
+</RelativeLayout>

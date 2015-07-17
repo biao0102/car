@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f3f3f3" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="12.0dip" >
+
+        <View
+            android:id="@+id/view_list_line_1"
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/img_line" />
+
+        <!-- 商户ID -->
+
+        <LinearLayout
+            android:id="@+id/ll_cell_1"
+            android:layout_width="match_parent"
+            android:layout_height="42.0dip"
+            android:layout_below="@+id/view_list_line_1"
+            android:orientation="horizontal"
+            android:weightSum="5" >
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:text="@string/shbianhao" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3" >
+
+                <EditText
+                    android:id="@+id/tv_sid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:background="@null"
+                    android:textColor="@color/color_666666"
+                    android:textColorHint="@color/color_cccccc"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_list_line_2"
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:layout_below="@+id/ll_cell_1"
+            android:background="@drawable/img_line" />
+        <!-- 商户名称 -->
+
+        <LinearLayout
+            android:id="@+id/ll_cell_2"
+            android:layout_width="match_parent"
+            android:layout_height="42.0dip"
+            android:layout_below="@+id/view_list_line_2"
+            android:orientation="horizontal"
+            android:weightSum="5" >
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:text="@string/shname" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3" >
+
+                <EditText
+                    android:id="@+id/tv_sname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:background="@null"
+                    android:textColor="@color/color_666666"
+                    android:textColorHint="@color/color_cccccc"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_list_line_3"
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:layout_below="@+id/ll_cell_2"
+            android:background="@drawable/img_line" />
+        <!-- 商户电话 -->
+
+        <LinearLayout
+            android:id="@+id/ll_cell_3"
+            android:layout_width="match_parent"
+            android:layout_height="42.0dip"
+            android:layout_below="@+id/view_list_line_3"
+            android:orientation="horizontal"
+            android:weightSum="5" >
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:text="@string/shtel" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3" >
+
+                <EditText
+                    android:id="@+id/tv_tel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:background="@null"
+                    android:textColor="@color/color_666666"
+                    android:textColorHint="@color/color_cccccc"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_list_line_4"
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:layout_below="@+id/ll_cell_3"
+            android:background="@drawable/img_line" />
+
+        <!-- 商户联系人 -->
+
+        <LinearLayout
+            android:id="@+id/ll_cell_4"
+            android:layout_width="match_parent"
+            android:layout_height="42.0dip"
+            android:layout_below="@+id/view_list_line_4"
+            android:orientation="horizontal"
+            android:weightSum="5" >
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:text="@string/shlxr" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3" >
+
+                <EditText
+                    android:id="@+id/tv_lianxiren"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:background="@null"
+                    android:textColor="@color/color_666666"
+                    android:textColorHint="@color/color_cccccc"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_list_line_5"
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:layout_below="@+id/ll_cell_4"
+            android:background="@drawable/img_line" />
+
+        <!-- 商户负责人 -->
+
+        <LinearLayout
+            android:id="@+id/ll_cell_5"
+            android:layout_width="match_parent"
+            android:layout_height="42.0dip"
+            android:layout_below="@+id/view_list_line_5"
+            android:orientation="horizontal"
+            android:weightSum="5" >
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:text="@string/shzfzr" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3" >
+
+                <EditText
+                    android:id="@+id/tv_fuzeren"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:background="@null"
+                    android:textColor="@color/color_666666"
+                    android:textColorHint="@color/color_cccccc"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_list_line_6"
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:layout_below="@+id/ll_cell_5"
+            android:background="@drawable/img_line" />
+
+        <!-- 地址 -->
+
+        <LinearLayout
+            android:id="@+id/ll_cell_6"
+            android:layout_width="match_parent"
+            android:layout_height="42.0dip"
+            android:layout_below="@+id/view_list_line_6"
+            android:orientation="horizontal"
+            android:weightSum="5" >
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:text="@string/address" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3" >
+
+                <EditText
+                    android:id="@+id/tv_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:background="@null"
+                    android:textColor="@color/color_666666"
+                    android:textColorHint="@color/color_cccccc"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_list_line_7"
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:layout_below="@+id/ll_cell_6"
+            android:background="@drawable/img_line" />
+
+        <!-- 备注 -->
+
+        <LinearLayout
+            android:id="@+id/ll_cell_7"
+            android:layout_width="match_parent"
+            android:layout_height="42.0dip"
+            android:layout_below="@+id/view_list_line_7"
+            android:orientation="horizontal"
+            android:weightSum="5" >
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:text="@string/beizhu" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3" >
+
+                <EditText
+                    android:id="@+id/tv_beizhu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:background="@null"
+                    android:textColor="@color/color_666666"
+                    android:textColorHint="@color/color_cccccc"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_line"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_list_line_8"
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:layout_below="@+id/ll_cell_7"
+            android:background="@drawable/img_line" />
+
+        <include
+            android:id="@+id/ll_base_bottom_layou"
+            android:layout_width="match_parent"
+            android:layout_height="48.0dip"
+            android:layout_below="@+id/view_list_line_8"
+            android:layout_marginTop="20.0dip"
+            layout="@layout/view_base_bottom_bar"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20.0dip"
+            android:layout_below="@+id/ll_base_bottom_layou" />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/rel_builder_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dip" >
+
+        <TextView
+            android:id="@+id/tv_builder_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:textSize="17.0sp" />
+
+        <ImageView
+            android:id="@+id/iv_builder_close"
+            android:layout_width="26.0dip"
+            android:layout_height="26.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8.0dip"
+            android:background="@drawable/icon_light_exit"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <!-- 搜索框 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_builder_title_layout"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/bg_search_input" >
+
+        <EditText
+            android:id="@+id/edt_pinpai_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_toLeftOf="@+id/rl_searchimg_layout"
+            android:background="@null"
+            android:fadeScrollbars="true"
+            android:focusable="false"
+            android:gravity="left|center_vertical"
+            android:padding="4.0dip"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical"
+            android:textColor="@color/color_121212"
+            android:textSize="15.0sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_searchimg_layout"
+            android:layout_width="48.0dip"
+            android:layout_height="38.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/color_989897" >
+
+            <TextView
+                android:id="@+id/tv_sure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/app_name"
+                android:text="@string/sure"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_chexi_layout"
+        style="@style/ListView_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_search_layout" >
+    </ListView>
+
+</RelativeLayout>

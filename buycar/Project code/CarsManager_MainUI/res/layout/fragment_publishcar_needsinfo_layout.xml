@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- VIN码 -->
+
+        <LinearLayout
+            android:id="@+id/rl_vin"
+            android:layout_width="match_parent"
+            android:layout_height="44.0dip"
+            android:layout_marginTop="20.0dip"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/tv_vin"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/vinma"
+                android:textColor="@color/black"
+                android:textSize="16.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_vinma_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="38.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_weight="3"
+                android:background="@drawable/bg_search_input" >
+
+                <TextView
+                    android:id="@+id/edt_vin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginRight="8.0dip"
+                    android:textColor="@color/color_121212"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 价格 -->
+
+        <LinearLayout
+            android:id="@+id/rl_price"
+            android:layout_width="match_parent"
+            android:layout_height="44.0dip"
+            android:layout_below="@+id/rl_vin"
+            android:layout_marginTop="20.0dip"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/price"
+                android:textColor="@color/black"
+                android:textSize="16.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_price_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="38.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_weight="3"
+                android:background="@drawable/bg_search_input" >
+
+                <TextView
+                    android:id="@+id/edt_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginRight="8.0dip"
+                    android:textColor="@color/color_121212"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 供应商 -->
+
+        <LinearLayout
+            android:id="@+id/rl_gys"
+            android:layout_width="match_parent"
+            android:layout_height="44.0dip"
+            android:layout_below="@+id/rl_price"
+            android:layout_marginTop="14.0dip"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/tv_gongyingshagn"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/gongyingshang"
+                android:textColor="@color/black"
+                android:textSize="16.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_gys_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="38.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_weight="3"
+                android:background="@drawable/bg_search_input" >
+
+                <TextView
+                    android:id="@+id/edt_gys"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginRight="8.0dip"
+                    android:textColor="@color/color_121212"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 品牌 -->
+
+        <LinearLayout
+            android:id="@+id/rl_pp"
+            android:layout_width="match_parent"
+            android:layout_height="44.0dip"
+            android:layout_below="@+id/rl_gys"
+            android:layout_marginTop="16.0dip"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/tv_pinpai"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/pinpai"
+                android:textColor="@color/black"
+                android:textSize="16.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_pinpai_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="38.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_weight="3"
+                android:background="@drawable/bg_search_input" >
+
+                <TextView
+                    android:id="@+id/edt_pinpai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginRight="8.0dip"
+                    android:textColor="@color/color_121212"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 车系 -->
+
+        <LinearLayout
+            android:id="@+id/rl_chexi"
+            android:layout_width="match_parent"
+            android:layout_height="44.0dip"
+            android:layout_below="@+id/rl_pp"
+            android:layout_marginTop="16.0dip"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/tv_chexi"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/chexi"
+                android:textColor="@color/black"
+                android:textSize="16.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_chexi_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="38.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_weight="3"
+                android:background="@drawable/bg_search_input" >
+
+                <TextView
+                    android:id="@+id/edt_chexi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginRight="8.0dip"
+                    android:padding="4.0dip"
+                    android:textColor="@color/color_121212"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 车型 -->
+
+        <LinearLayout
+            android:id="@+id/rl_chexing"
+            android:layout_width="match_parent"
+            android:layout_height="44.0dip"
+            android:layout_below="@+id/rl_chexi"
+            android:layout_marginTop="16.0dip"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/tv_chexing"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/chexing"
+                android:textColor="@color/black"
+                android:textSize="16.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_chexing_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="38.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_weight="3"
+                android:background="@drawable/bg_search_input" >
+
+                <TextView
+                    android:id="@+id/edt_chexing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginRight="8.0dip"
+                    android:padding="4.0dip"
+                    android:textColor="@color/color_121212"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 首次上牌 -->
+
+        <LinearLayout
+            android:id="@+id/rl_scsp"
+            android:layout_width="match_parent"
+            android:layout_height="44.0dip"
+            android:layout_below="@+id/rl_chexing"
+            android:layout_marginTop="16.0dip"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/tv_scsp"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/scsp"
+                android:textColor="@color/black"
+                android:textSize="16.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_scsp_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="38.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_weight="3"
+                android:background="@drawable/bg_search_input" >
+
+                <TextView
+                    android:id="@+id/edt_scsp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginRight="8.0dip"
+                    android:padding="4.0dip"
+                    android:textColor="@color/color_121212"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 行驶里程 -->
+
+        <LinearLayout
+            android:id="@+id/rl_xslc"
+            android:layout_width="match_parent"
+            android:layout_height="44.0dip"
+            android:layout_below="@+id/rl_scsp"
+            android:layout_marginTop="16.0dip"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/tv_xslc"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/xslc"
+                android:textColor="@color/black"
+                android:textSize="16.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_xslc_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="38.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_weight="3"
+                android:background="@drawable/bg_search_input" >
+
+                <TextView
+                    android:id="@+id/edt_xslc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginRight="8.0dip"
+                    android:padding="4.0dip"
+                    android:textColor="@color/color_121212"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 颜色 -->
+
+        <LinearLayout
+            android:id="@+id/rl_yanse"
+            android:layout_width="match_parent"
+            android:layout_height="44.0dip"
+            android:layout_below="@+id/rl_xslc"
+            android:layout_marginTop="16.0dip"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/tv_yanse"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/yanse"
+                android:textColor="@color/black"
+                android:textSize="16.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_yanse_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="38.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_weight="3"
+                android:background="@drawable/bg_search_input" >
+
+                <TextView
+                    android:id="@+id/edt_yanse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginRight="8.0dip"
+                    android:padding="4.0dip"
+                    android:textColor="@color/color_121212"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 用途 -->
+
+        <LinearLayout
+            android:id="@+id/rl_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="44.0dip"
+            android:layout_below="@+id/rl_yanse"
+            android:layout_marginTop="16.0dip"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/tv_tabs"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/yongtu"
+                android:textColor="@color/black"
+                android:textSize="16.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_yongtu_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20.0dip"
+                android:layout_weight="3"
+                android:background="@drawable/bg_search_input" >
+
+                <TextView
+                    android:id="@+id/edt_yongtu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginRight="8.0dip"
+                    android:padding="4.0dip"
+                    android:textColor="@color/color_121212"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

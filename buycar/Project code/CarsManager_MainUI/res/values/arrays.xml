@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 拍照角度名称 -->
+    <string-array name="photo_type_name">
+        <item>右前45度</item>
+        <item>正前</item>
+        <item>左前45度</item>
+        <item>正侧</item>
+        <item>前灯</item>
+        <item>轮胎</item>
+        <item>前排座椅</item>
+        <item>中控台</item>
+        <item>方向盘</item>
+        <item>仪表盘</item>
+        <item>档位</item>
+        <item>后排座椅</item>
+        <item>正后</item>
+        <item>右后45度</item>
+        <item>后灯</item>
+        <item>后备箱</item>
+        <item>发动机整体</item>
+        <item>发动机细节</item>
+        <item>行驶证</item>
+        <item>亮点</item>
+        <item>亮点</item>
+    </string-array>
+
+    <integer-array name="photo_default_img">
+        <item>@drawable/car_photo_1</item>
+        <item>@drawable/car_photo_2</item>
+        <item>@drawable/car_photo_3</item>
+        <item>@drawable/car_photo_4</item>
+        <item>@drawable/car_photo_5</item>
+        <item>@drawable/car_photo_6</item>
+        <item>@drawable/car_photo_7</item>
+        <item>@drawable/car_photo_8</item>
+        <item>@drawable/car_photo_9</item>
+        <item>@drawable/car_photo_10</item>
+        <item>@drawable/car_photo_11</item>
+        <item>@drawable/car_photo_12</item>
+        <item>@drawable/car_photo_13</item>
+        <item>@drawable/car_photo_14</item>
+        <item>@drawable/car_photo_15</item>
+        <item>@drawable/car_photo_16</item>
+        <item>@drawable/car_photo_17</item>
+        <item>@drawable/car_photo_18</item>
+        <item>@drawable/car_photo_19</item>
+        <item>@drawable/car_photo_20</item>
+        <item>@drawable/car_photo_20</item>
+    </integer-array>
+
+</resources>

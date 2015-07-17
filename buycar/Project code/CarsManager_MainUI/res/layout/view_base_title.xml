@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rtl_basetitle_layout"
+    android:layout_width="match_parent"
+    android:layout_height="48.0dip"
+    android:background="@drawable/img_base_title_bg" >
+
+    <!-- 左侧文字控件 -->
+
+    <TextView
+        android:id="@+id/tv_basetitle_lefttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12.0dip"
+        android:textColor="@color/white"
+        android:textSize="18.0sp" />
+
+    <!-- 左侧图片控件 -->
+
+    <ImageView
+        android:id="@+id/iv_basetitle_leftimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12.0dip"
+        android:contentDescription="@string/app_name" />
+
+    <!-- 左侧文字控件 -->
+
+    <TextView
+        android:id="@+id/tv_basetitle_titletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:textSize="18.0sp" />
+
+    <!-- 左侧二级文字控件 -->
+
+    <TextView
+        android:id="@+id/tv_basetitle_second_lefttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4.0dip"
+        android:layout_toRightOf="@+id/iv_basetitle_leftimg"
+        android:textColor="@color/white"
+        android:textSize="18.0sp" />
+
+    <!-- 右侧文字控件 -->
+
+    <TextView
+        android:id="@+id/tv_basetitle_righttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12.0dip"
+        android:textColor="@color/white"
+        android:textSize="18.0sp" />
+
+    <!-- 右侧二级文字控件 -->
+
+    <TextView
+        android:id="@+id/tv_basetitle_second_righttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="70.0dip"
+        android:textColor="@color/white"
+        android:textSize="18.0sp" />
+
+    <!-- 右侧图片控件 -->
+
+    <ImageView
+        android:id="@+id/iv_basetitle_rightimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12.0dip"
+        android:contentDescription="@string/app_name" />
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120.0dip"
+    android:orientation="horizontal"
+    android:weightSum="19" >
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_line"
+        android:contentDescription="@string/app_name" />
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/img_business_noselected"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_line"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_margin="6.0dip"
+        android:layout_weight="2"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_line"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/text_3"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_margin="6.0dip"
+        android:layout_weight="4"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_line"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/text_4"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_margin="6.0dip"
+        android:layout_weight="3"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_line"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/text_5"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_margin="6.0dip"
+        android:layout_weight="2"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_line"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/text_6"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_margin="6.0dip"
+        android:layout_weight="3"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_line"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/text_7"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_margin="6.0dip"
+        android:layout_weight="4"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_line"
+        android:contentDescription="@string/app_name" />
+
+</LinearLayout>

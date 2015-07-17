@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item name="background_for_all" type="drawable">#ffededf0</item>
+    <item name="transparent" type="drawable">#00000000</item>
+    <item name="translucence" type="drawable">#50000000</item>
+
+</resources>

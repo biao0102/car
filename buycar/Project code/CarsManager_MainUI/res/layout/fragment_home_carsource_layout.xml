@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <!-- 车源列表 -->
+
+    <com.cars.manager.views.widgts.pullToRefresh.PullToRefreshListView
+        android:id="@+id/pull_refresh_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="12.0dip"
+        android:divider="@drawable/img_line"
+        android:scrollbars="none" >
+    </com.cars.manager.views.widgts.pullToRefresh.PullToRefreshListView>
+
+    <include
+        android:id="@+id/ll_business_operation_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/view_carsource_operation_pop_layout"
+        android:visibility="visible" />
+
+</RelativeLayout>

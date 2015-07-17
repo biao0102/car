@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64.0dip"
+    android:background="@color/color_f3f3f3"
+    android:orientation="horizontal"
+    android:weightSum="5" >
+
+    <TextView
+        android:id="@+id/tv_business_op_1"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6.0dip"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="2.0dip"
+        android:layout_marginTop="6.0dip"
+        android:layout_weight="1"
+        android:background="@drawable/bt_base_bottom_left"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/shangjiacheliang"
+        android:textColor="@color/color_535353"
+        android:textSize="12.0sp" />
+
+    <TextView
+        android:id="@+id/tv_business_op_2"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6.0dip"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="2.0dip"
+        android:layout_marginTop="6.0dip"
+        android:layout_weight="1"
+        android:background="@drawable/bt_base_bottom_left"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/xiajiacheliang"
+        android:textColor="@color/color_535353"
+        android:textSize="12.0sp" />
+
+    <TextView
+        android:id="@+id/tv_business_op_3"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6.0dip"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="2.0dip"
+        android:layout_marginTop="6.0dip"
+        android:layout_weight="1"
+        android:background="@drawable/bt_base_bottom_left"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/updatetime"
+        android:textColor="@color/color_535353"
+        android:textSize="12.0sp" />
+
+    <TextView
+        android:id="@+id/tv_business_op_4"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6.0dip"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="2.0dip"
+        android:layout_marginTop="6.0dip"
+        android:layout_weight="1"
+        android:background="@drawable/bt_base_bottom_left"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/update_business_info"
+        android:textColor="@color/color_535353"
+        android:textSize="12.0sp" />
+
+    <TextView
+        android:id="@+id/tv_business_op_5"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6.0dip"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="2.0dip"
+        android:layout_marginTop="6.0dip"
+        android:layout_weight="1"
+        android:background="@drawable/bt_base_bottom_left"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/delete_business"
+        android:textColor="@color/color_535353"
+        android:textSize="12.0sp" />
+
+</LinearLayout>
